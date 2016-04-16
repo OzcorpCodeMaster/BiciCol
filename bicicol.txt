@@ -2,6 +2,7 @@ CREATE DATABASE Bicicol;
 USE bicicol;
 #Probando, probando
 #probando
+#Hashtag
 
 CREATE TABLE Proveedor(
 NitEmpresa VARCHAR(150) NOT NULL PRIMARY KEY,
