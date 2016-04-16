@@ -226,4 +226,4 @@ REFERENCES Componente(Referencia);
 
 DROP TABLE Cuenta;
 
-#Oscar
+#Oscar otro cambio
