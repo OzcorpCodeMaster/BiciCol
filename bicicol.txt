@@ -1,6 +1,7 @@
 CREATE DATABASE Bicicol;
 USE bicicol;
 #Probando, probando
+#Probando x2
 
 
 CREATE TABLE Proveedor(
