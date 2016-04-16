@@ -4,10 +4,10 @@ VALUES (1, 'bicimed','6570089', 'Medellin','Calle 15a#15-00','bicimed@gmail.com'
 
 #->Oscar
 INSERT INTO Proveedor VALUE
-(2, 'Scalar Bikes', '8557436', 'Bogot·', 'Cr 2 b#5-27', 'scalarbikes95@hotmail.com'),
+(2, 'Scalar Bikes', '8557436', 'Bogot√°', 'Cr 2 b#5-27', 'scalarbikes95@hotmail.com'),
 (3, 'DistriBicis', '48935764', 'Bucaramanga', 'Calle 52 #3-55', 'distribic@gmail.com'),
 (4, 'Cali sobre Ruedas', '7654496', 'Santa Marta', 'Av 67 calle 19', 'CSRSM@yahoo.es'),
-(5, 'Bicicletas la cima', '4814766', 'Bogot·', 'Cr 5 #25-11', 'bicislacima@hotmail.com');
+(5, 'Bicicletas la cima', '4814766', 'Bogot√°', 'Cr 5 #25-11', 'bicislacima@hotmail.com');
 #<-
 
 INSERT INTO Compra(IdCompra, ValorTotal,Fecha) 
@@ -37,9 +37,9 @@ VALUES (1, 'Termo','15.000','50','25', 'Azul', 'Plastico', 'Jumbo','NA','2');
 INSERT INTO Accesorio VALUE
 (2, 'Termo', 10000, 20, 30, 'Negro', 'Plastico', 'PlasticCol', 
 	'Un termo de poco peso, que se puede llevar a todas partes... o casi todas', '2'),
-(3, 'Casco', 25000, 3, 97, 'Rojo', 'Pl·stico - Icopor', 'GW', 
-	'Proteja su vida y vÈase realmente cool con este casco', 1),
-(4, 'Casco', 71000, 50, 20, 'Gris', 'Pl·stico', 'CSR', 
+(3, 'Casco', 25000, 3, 97, 'Rojo', 'Pl√°stico - Icopor', 'GW', 
+	'Proteja su vida y v√©ase realmente cool con este casco', 1),
+(4, 'Casco', 71000, 50, 20, 'Gris', 'Pl√°stico', 'CSR', 
 	'Ideal para BMX', 2),
 (5, 'Porta Paquetes', 35000, 27, 31, 'Plateado', 'Acero', 'IncaMetal', 
 	'cargue en su bicicleta todo tipo de paquetes', 2);
@@ -55,7 +55,7 @@ INSERT INTO Compra_Accesorio VALUE
 (5, 120000, '5', '5', 40);
 
 INSERT INTO Componente(Referencia, Marca, Material, Color, UnidadesStock, UnidadesVendidas, Garantia, Precio, Tipo, Caracteristicas) 
-VALUES ('1', 'SHIMANU','Acero','Negro','15','23','8','120.000','PiÒon','NA');
+VALUES ('1', 'SHIMANU','Acero','Negro','15','23','8','120.000','Pi√±on','NA');
 
 #Oscar
 INSERT INTO Componente VALUE
@@ -81,7 +81,7 @@ VALUES ('1', '1500000','Todo Terreno','M','2','0','Track','24');
 
 #Oscar
 INSERT INTO Bicicleta VALUE
-(2, 300000, 'Para niÒos', 'S', 5, 10, 'Haro', 24),
+(2, 300000, 'Para ni√±os', 'S', 5, 10, 'Haro', 24),
 (3, 1300000, 'Carreras', 'M', 10, 0, 'SHIMANU', 24),
 (4, 2000000, 'Carreras', 'M', 0, 20, 'Track', 36),
 (5, 1500000, 'Todo Terreno', 'M', 15, 25, 'GW', 24);
@@ -113,7 +113,7 @@ VALUES ('3455324', 'Marcela Gutierrez','8965432');
 #Oscar
 INSERT INTO Cliente VALUE
 (1311459547, 'Laura Bernal', 8253704),
-(1237701774, 'Santiago MartÌnez', 82534658),
+(1237701774, 'Santiago Mart√≠nez', 82534658),
 (1031292087, 'Viviana Carpintero', 8562738),
 (1900181171, 'Juan Lopez', 8254648);
 
@@ -160,12 +160,3 @@ INSERT INTO Venta_Bicleta VALUE
 (4, 4, 4, 2, 2600000),
 (5, 5, 5, 3, 4500000);
 
-INSERT INTO Bicicleta_Componente(IdBiComp, RefComponente, RefBicicleta, Cantidad) 
-VALUES ('1', '1','1','1');
-
-#Oscar 
-INSERT INTO Bicicleta_Componente VALUE
-(2, 2, 2, 2),
-(3, 3, 3, 3),
-(4, 4, 4, 4),
-(5, 5, 5, 5);
