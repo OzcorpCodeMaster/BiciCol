@@ -1,7 +1,7 @@
 CREATE DATABASE Bicicol;
 USE bicicol;
 #Probando, probando
-
+#probando
 
 CREATE TABLE Proveedor(
 NitEmpresa VARCHAR(150) NOT NULL PRIMARY KEY,
